@@ -2,6 +2,10 @@ import React from 'react';
 import './AddMovieForm.css';
 
 class AddMovieForm extends React.Component {
+    createMovie() {
+        
+    }
+
     render() {
         return (
         <div className="add-movie-container">
