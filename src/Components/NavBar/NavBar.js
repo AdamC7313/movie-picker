@@ -4,13 +4,13 @@ import './NavBar.css';
 class NavBar extends React.Component {
     render() {
         return (
-            <div>
+            <div className="NavHead">
                 <h1>Movie Picker</h1>
                 <h2>Choose an Option</h2>
-                <div class="display-buttons">
-                    <button class="button" id="add-movie">Add a Movie</button>
-                    <button class="button" id="pick-movie">Pick a Movie</button>
-                    <button class="button" id="see-movie-list">See Movie List</button>
+                <div className="display-buttons">
+                    <button className="button" id="add-movie" value='AddMovie' onClick={this.props.onFormSelect}>Add a Movie</button>
+                    <button className="button" id="pick-movie" value='PickMovie' onClick={this.props.onFormSelect}>Pick a Movie</button>
+                    <button className="button" id="see-movie-list" value='MovieList' onClick={this.props.onFormSelect}>See Movie List</button>
                 </div>
             </div>
         )
