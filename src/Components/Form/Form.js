@@ -1,6 +1,9 @@
 import React from 'react';
-import AddMovieForm from '../AddMovie/AddMovie';
+import AddMovieForm from '../AddMovie/AddMovieForm';
+import PickMovieForm from '../Pick a Movie/PickMovieForm';
+import MovieList from '../MovieList/MovieList';
 import './Form.css';
+
 
 class Form extends React.Component {
     showForm(param) {
@@ -8,9 +11,9 @@ class Form extends React.Component {
             case 'AddMovie':
                 return <AddMovieForm />;
             case 'PickMovie':
-                return 'Pick Movie';
-            case 'null':
-                return 'null';
+                return <PickMovieForm />;
+            case 'MovieList':
+                return <MovieList />;
         }
     }
 

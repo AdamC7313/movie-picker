@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import NavBar from '../NavBar/NavBar';
 import Form from '../Form/Form';
-import AddMovieForm from '../AddMovie/AddMovie';
+import AddMovieForm from '../AddMovie/AddMovieForm';
 
 class App extends React.Component {
   constructor(props) {

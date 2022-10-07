@@ -1,0 +1,19 @@
+.movie-table {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+table, th, td {
+    width: 400px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    color: #115566;
+    display: relative;
+}
+
+
+td {
+    text-align: center;
+    padding: 3px;
+}

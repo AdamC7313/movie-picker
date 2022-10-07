@@ -1,0 +1,9 @@
+.pick-movie-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.pick-movie-container {
+    display: flex;
+    justify-content: center;
+}

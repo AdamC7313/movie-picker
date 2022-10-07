@@ -1,5 +1,5 @@
 import React from 'react';
-import './AddMovie.css';
+import './AddMovieForm.css';
 
 class AddMovieForm extends React.Component {
     render() {
@@ -9,10 +9,6 @@ class AddMovieForm extends React.Component {
                 <label for="movie-name"><strong>Movie name: </strong></label>
                 <input type="text" id="movie-name" name="movie-name" />
                 <h3>Genre: </h3>
-                <div className="checkbox">
-                    <input type="checkbox" id="select-all" value="Select All" /> 
-                    <label for="select-all"><strong>Select All</strong></label>
-                </div>
                 <div className="checkbox">
                     <input type="checkbox" id="action" name="genre" value="Action" /> 
                     <label for="action">Action</label>
